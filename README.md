@@ -21,3 +21,19 @@ pip install -r requirements.txt
 
 # Step 3: Run the server
 uvicorn app.main:app --reload
+```
+
+## Docker
+
+```bash
+# Step 1: Clone the repository
+git clone https://github.com/RYAN-1111/Resume-Screening.git
+cd ai_resume_screening
+
+# Step 2: Build the Docker image
+docker build -t ai-resume-screener .
+
+# Step 3: Run the container
+docker run -p 8000:8000 ai-resume-screener
+
+```
